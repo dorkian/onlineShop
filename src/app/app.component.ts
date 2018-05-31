@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { ViewChild } from '@angular/core';
+//import { MatSidenav } from '@angular/material';
+import { NgrxService } from 'src/app/serviceproviders/ngrx.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Online Shop App';
+  items:any=[];
+
+  constructor(private store: NgrxService) {
+
+  }
+
+  getItemsCount(){
+    return this.store.items.length;
+  }
+
 }

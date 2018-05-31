@@ -1,0 +1,26 @@
+<div class="product-item">
+
+  <mat-card class="product-card" *ngFor="let item of products">
+    <img mat-card-image [src]="item.img" [alt]="item.name">
+
+    <mat-card-header>
+      <mat-card-title><b>Product Name :</b> {{item.name}}</mat-card-title>
+      <mat-card-subtitle><b>Product Code : </b>{{item.code}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="text-truncate">
+          {{item.description}}
+      </p>
+      
+        
+      
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent" [disabled]="!item.available" (click)="addToBasket(item)">Add to basket</button>
+
+      <div *ngIf="!item.available" class="float-right text-danger">Not Available in stock</div>
+      <div class="float-right" *ngIf="item.available"><b>Price :</b> {{item.price | currency}}</div>
+    </mat-card-actions>
+  </mat-card>
+
+</div>

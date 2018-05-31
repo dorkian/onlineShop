@@ -1,0 +1,111 @@
+[
+    {
+        "id":1,
+        "code":"ix",
+        "name":"iPhone X",
+        "description":"Da sempre immaginiamo un iPhone fatto di solo schermo. Un oggetto così coinvolgente che ti fa immergere in quello che vedi. E così intelligente che sa rispondere a un tuo tocco, a una parola, persino a uno sguardo. Con iPhone X quella visione diventa realtà. E il futuro può cominciare.",
+        "img":"/assets/images/apple.jpg",
+        "price":975,
+        "available":false
+    },
+    {
+        "id":2,
+        "code":"h20",
+        "name":"Huawei 20 Pro",
+        "description":"Più intelligente, più veloce e per più tempo. Acquista Ora! Tipi: Grandi Elettrodomestici, Televisori, Smartphone, Pc & Notebook",
+        "img":"/assets/images/huawei.jpg",
+        "price":765,
+        "available":true
+    },
+    {
+        "id":3,
+        "code":"s9",
+        "name":"Samsung Galaxy S9",
+        "description":"Dual Aperture Capture stunning pictures in bright daylight and super low light. Our category-defining Dual Aperture lens adapts like the human eye. It's able to automatically switch between various lighting conditions with ease—making your photos look great whether it's bright or dark, day or night.",
+        "img":"/assets/images/samsung.jpg",
+        "price":769,
+        "available":true
+    },
+    {
+        "id":4,
+        "code":"v30",
+        "name":"LG V30",
+        "description":"La qualità di LG OLED TV nel palmo della tua mano con display FullVision Obiettivo Crystal Clear · Audio B&O PLAY · Resistente all'acqua · Video Professionali Stili: Cloud Silver, Moroccan Blue, Lega di Alluminio",
+        "img":"/assets/images/lg.jpg",
+        "price":529,
+        "available":false
+    },
+
+    {
+        "id":5,
+        "code":"h20",
+        "name":"Huawei 20 Pro",
+        "description":"Più intelligente, più veloce e per più tempo. Acquista Ora! Tipi: Grandi Elettrodomestici, Televisori, Smartphone, Pc & Notebook",
+        "img":"/assets/images/huawei.jpg",
+        "price":765,
+        "available":true
+    },
+    {
+        "id":6,
+        "code":"s9",
+        "name":"Samsung Galaxy S9",
+        "description":"Dual Aperture Capture stunning pictures in bright daylight and super low light. Our category-defining Dual Aperture lens adapts like the human eye. It's able to automatically switch between various lighting conditions with ease—making your photos look great whether it's bright or dark, day or night.",
+        "img":"/assets/images/samsung.jpg",
+        "price":769,
+        "available":true
+    },
+    {
+        "id":7,
+        "code":"ix",
+        "name":"iPhone X",
+        "description":"Da sempre immaginiamo un iPhone fatto di solo schermo. Un oggetto così coinvolgente che ti fa immergere in quello che vedi. E così intelligente che sa rispondere a un tuo tocco, a una parola, persino a uno sguardo. Con iPhone X quella visione diventa realtà. E il futuro può cominciare.",
+        "img":"/assets/images/apple.jpg",
+        "price":975,
+        "available":false
+    },
+    {
+        "id":8,
+        "code":"v30",
+        "name":"LG V30",
+        "description":"La qualità di LG OLED TV nel palmo della tua mano con display FullVision Obiettivo Crystal Clear · Audio B&O PLAY · Resistente all'acqua · Video Professionali Stili: Cloud Silver, Moroccan Blue, Lega di Alluminio",
+        "img":"/assets/images/lg.jpg",
+        "price":529,
+        "available":true
+    },
+    {
+        "id":9,
+        "code":"ix",
+        "name":"iPhone X",
+        "description":"Da sempre immaginiamo un iPhone fatto di solo schermo. Un oggetto così coinvolgente che ti fa immergere in quello che vedi. E così intelligente che sa rispondere a un tuo tocco, a una parola, persino a uno sguardo. Con iPhone X quella visione diventa realtà. E il futuro può cominciare.",
+        "img":"/assets/images/apple.jpg",
+        "price":975,
+        "available":true
+    },
+    {
+        "id":10,
+        "code":"h20",
+        "name":"Huawei 20 Pro",
+        "description":"Più intelligente, più veloce e per più tempo. Acquista Ora! Tipi: Grandi Elettrodomestici, Televisori, Smartphone, Pc & Notebook",
+        "img":"/assets/images/huawei.jpg",
+        "price":765,
+        "available":false
+    },
+    {
+        "id":11,
+        "code":"v30",
+        "name":"LG V30",
+        "description":"La qualità di LG OLED TV nel palmo della tua mano con display FullVision Obiettivo Crystal Clear · Audio B&O PLAY · Resistente all'acqua · Video Professionali Stili: Cloud Silver, Moroccan Blue, Lega di Alluminio",
+        "img":"/assets/images/lg.jpg",
+        "price":529,
+        "available":false
+    },
+    {
+        "id":12,
+        "code":"s9",
+        "name":"Samsung Galaxy S9",
+        "description":"Dual Aperture Capture stunning pictures in bright daylight and super low light. Our category-defining Dual Aperture lens adapts like the human eye. It's able to automatically switch between various lighting conditions with ease—making your photos look great whether it's bright or dark, day or night.",
+        "img":"/assets/images/samsung.jpg",
+        "price":769,
+        "available":true
+    }
+]

@@ -1,0 +1,33 @@
+<form class="example-form" #f="ngForm">
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="First name" name="fName" [(ngModel)]="shippingInfo.fName"  required >
+      <mat-error *ngIf="!shippingInfo.fName">Please enter your name</mat-error>
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="Last Name" name="lName" [(ngModel)]="shippingInfo.lName" required>
+      <mat-error *ngIf="!shippingInfo.fName">Please enter your last name</mat-error>
+    </mat-form-field></td>
+  </tr></table>
+
+  <p>
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Address" name="address" [(ngModel)]="shippingInfo.address"></textarea>
+    </mat-form-field>
+  </p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="City" name="city" [(ngModel)]="shippingInfo.city">
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="State" name="state" [(ngModel)]="shippingInfo.state">
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <input matInput #postalCode name="postalCode" maxlength="5" placeholder="Postal Code" [(ngModel)]="shippingInfo.postalCode">
+      <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+    </mat-form-field></td>
+  </tr></table>
+  <button mat-raised-button color="primary" [disabled]="basketItems.length == 0 || !f.valid" (click)="confirmOrder()">Confirm Order</button>
+</form>
